@@ -1,5 +1,7 @@
 FROM ubuntu:16.06
 
+MAINTAINER "Tanuj Gupta"
+
 RUN apt-get update && apt install -y build-essential libmysqlclient-dev python-dev libapr1-dev libsvn-dev wget libcurl4-nss-dev libsasl2-dev libsasl2-modules zlib1g-dev curl
 
 RUN apt-get install --no-install-recommends cron 
